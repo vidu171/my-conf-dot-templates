@@ -1,0 +1,18 @@
+[user]
+	email = v.vidu171@gmail.com
+	name = Vidhhyanshu Jain
+
+[url "https://github.com/vidu171/"]
+    insteadOf = vidu-git:
+
+
+[alias]
+  st = status --short --branch # -sb
+  # sometimes you want to see ignored files as well
+  sti = status --short --branch --ignored
+  ci = commit
+  co = checkout  
+
+
+
+
