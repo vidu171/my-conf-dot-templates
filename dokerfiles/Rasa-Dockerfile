@@ -1,0 +1,8 @@
+FROM python:3.6-slim
+
+WORKDIR /usr/src/app
+RUN pip install rasa
+
+COPY . .
+EXPOSE 5005
+CMD ["rasa","run",  "--enable-api","--cors","*"] 
